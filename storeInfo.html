@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="apple-touch-icon-precomposed" href=".png"/>
+    <link rel="apple-touch-startup-image" href=".png"/>
+    <link rel="stylesheet" href="css/storeInfo.css">
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/storeInfo.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYdhWeUhH5Dor-njEpEwNm7-axG8eZYsw&libraries=places&callback=initAutocomplete" async defer></script>
+</head>
+<body>
+   <!--header-->
+   <header>
+        <h1>매장안내</h1>
+    </header>
+    <!--//header-->
+    <hr/>
+    
+    <!--container-->
+    <div id="container">
+        <div id="contents">
+           <div class="mapPart">
+				<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+				<div id="map"></div>
+				<ul class="marker">
+					<li><a href="#">매장연락처<br/> 보기</a></li>
+					<li><a href="#">1:1 문의<br/>하기</a></li>
+				</ul>
+            </div>
+            <section class="chat">
+               <h2>1:1 문의</h2>
+               <div class="chatContent">
+				   <article>
+						<div>
+							<p><time>오후 5:53</time><span>안녕하세요?</span></p>    
+						</div>
+					</article>
+					<article class="store">
+						<header>
+							<h3><img src="img/storeInfo/oliveyoung logo.png" alt="올리브영 로고"/></h3>
+							<h4>올리브영</h4>
+						</header>                    
+						<div>
+							<p><span>반갑습니다. 올리브영입니다.<br/>
+								무엇을 도와드릴까요?</span><time>오후 5:54</time>
+							</p>
+						</div>
+					</article>
+					<article>
+						<div>
+							<p class="left"><span>지금 혹시 카멕스 립밤 클래식<br/> 재고 있나요?</span></p>
+							<p><time>오후 5:55</time><span>3개 구매하려고 하는데요.</span></p>
+						</div>
+					</article>
+					<article class="store">
+						<header>
+							<h3><img src="img/storeInfo/oliveyoung logo.png" alt="올리브영 로고"/></h3>
+							<h4>올리브영</h4>
+						</header>              
+						<div>
+							<p><span>네 고객님.<br/> 3개 구매 가능하십니다.</span><time>오후 5:55</time></p>
+						</div>      
+					</article>
+					<article>
+						<div>
+							<p><time>오후 5:55</time><span>네. 감사합니다.</span></p>
+						</div>
+					</article>
+					<article class="store">
+						<header>
+							<h3><img src="img/storeInfo/oliveyoung logo.png" alt="올리브영 로고"/></h3>
+							<h4>올리브영</h4>
+						</header> 
+						<div>
+							<p><span>감사합니다. 또 뵙겠습니다.</span><time>오후 5:55</time></p>
+						</div>
+					</article>
+           			</div>
+           			<div class="close"><img src="img/storeInfo/chatclose.png" alt="1:1문의 대화창 닫기"/></div>
+            </section>
+        </div>
+    </div>
+    <!--//container-->
+    
+    <!--footer-->
+    <footer>
+        <nav>
+            <ul>
+            <li><a href="mine.html"><img src="img/footer/mineIcon.png" alt="내 화장대"/></a></li>
+            <li><a href="community.html"><img src="img/footer/communityIcon.png" alt="community<"/></a></li>
+            <li><a href="saleInfo.html"><img src="img/footer/slaeIcon.png" alt="세일"/></a></li>
+            <li><a href="storeInfo.html"><img src="img/footer/storeInfo_on.png" alt="상점안내"/></a></li>
+            <li><a href="more.html"><img src="img/footer/moreIcon.png" alt="내 정보 및 환경설정"/></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!--//footer-->
+</body>
+</html>

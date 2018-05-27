@@ -1,0 +1,80 @@
+@import url(reset.css);
+/*splash.css*/
+body{position:fixed; top:0; left:0; width:100%; height:100%; min-width:320px; min-height:568px;}
+
+header > a{display:block;}
+/*
+#flower{position:fixed;  top:23%; left:calc(50% - 98.4px); width:196.8px; height:200.4px;
+        stroke-dasharray:3000; stroke-dashoffset:0;}
+*/
+
+p.logo{opacity:0; position:fixed; top:23%; left:calc(50% - 98.4px); width:196.8px; height:200.4px;}
+p.logo img{width:100%;}
+h1, h2{opacity:0; width:100%; position:absolute; text-align:center; font-weight:bold; animation:title 1s linear 4.3s forwards;}
+h1{bottom:38.084%; color:#bf0225; font-size:31px;}
+h2{bottom: 32.923%; color:#5b6208; font-size:22.5px;}
+@keyframes title{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+p.pattern{position:fixed; left:0; width:100%; height:26px; background:url(../img/pattern.png) repeat-x 0 0;  background-size:contain;}
+p.pattern.top{top:20px;}
+p.pattern.bottom{bottom:20px;}
+
+#flower{stroke-dasharray:2211; stroke-dashoffset:0; animation:dash 4s linear 1;
+        position:fixed; top:23%; left:calc(50% - 98.4px); width:196.8px; height:200.4px;}
+    
+@keyframes dash{
+    from{stroke-dashoffset:2211;}
+    to{stroke-dashoffset:0;}
+}
+    /*나중에 이미지 등장*/
+.logo_leaf{opacity:1; animation:leaf 5s forwards; position:fixed; top:22.5%; left:calc(50% - 98.4px); width:196.8px; height:200.4px;}
+.logo_leaf img{width:100%;}
+/*animation 속성 forwards : 마지막에 적용된 속성이 계속 적용되게 한다.*/
+@keyframes leaf{
+    0%{opacity:0;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+}
+.tem{opacity:0; position:fixed; top:22.3%; left:calc(50% - 98.4px); width:196.8px; height:200.4px;}
+.tem img{width:100%; opacity:0.5;}
+.flowers{position:fixed; top:22.5%; left:calc(50% - 98.4px); width:196.8px; height:200.4px;}
+.flowers img{animation:flower 5s cubic-bezier(0.000, 1, 0.700, 0) forwards;}
+
+@keyframes flower{
+    0%{transform:scale(0); opacity:0;}
+    89%{transform:scale(0); opacity:0;}
+    90%{transform:scale(1); opacity:1;}
+    94%{transform:scale(0.5); opacity:1;}
+    98%{transform:scale(1.5); opacity:1;}
+    100%{transform:scale(1); opacity:1;}
+}
+.flowers img.mini{width:8.3px;}
+.flowers img.mb{width:18.26px;}
+.flowers img.mt{width:18.26px;}
+.flowers img.big{width:39.01px;}
+
+/*mini*/
+.flowers img.pic1{position:absolute; top:99px; left:31px;}
+.flowers img.pic2{position:absolute; top:28px; left:113px;}
+.flowers img.pic3{position:absolute; bottom:35.5px; left:91px;}
+.flowers img.pic4{position:absolute; top:72px; left:157px;}
+.flowers img.pic5{position:absolute; top:135px; left:145px;}
+
+/*middel bottom*/
+.flowers img.pic6{position:absolute; top:32px; left:60px;}
+.flowers img.pic7{position:absolute; top:138px; left:46px;}
+.flowers img.pic8{position:absolute; top:87px; left:153px;}
+
+/*big*/
+.flowers img.pic9{position:absolute; top:13px; left:78px;}
+.flowers img.pic10{position:absolute; top:106px; left:18px; transform:rotate(-40deg);}
+.flowers img.pic11{position:absolute; top:104px; left:140px; transform:rotate(-29deg);}
+
+/*middle top*/
+/*big*/
+.flowers img.pic12{position:absolute; top:31px; left:72px;}
+.flowers img.pic13{position:absolute; top:98px; left:154px;}
+.flowers img.pic14{position:absolute; top:130px; left:39px;}

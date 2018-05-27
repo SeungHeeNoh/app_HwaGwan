@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>mine</title>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="apple-touch-icon-precomposed" href=".png"/>
+    <link rel="apple-touch-startup-image" href=".png"/>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+   <div class="modal">
+       <div class="slideMenu">
+           <h2 class="blind">프로필</h2>
+           <ul>
+               <li><img src="img/mine/profile.jpg" alt="본인 프로필 사진"/></li>
+               <li><span>jeru</span>님의 화장대에<br/>
+                   총 <span>10</span>개의 화장품이<br/>
+                   있습니다.
+               </li>
+           </ul>
+           <!--카테고리-->
+           <nav>
+               <h2>카테고리</h2>
+               <ul>
+                   <li><a href="#"><span>기초제품</span></a>
+                   		<ul>
+                   			<li><a  href="#">스킨/로션</a></li>
+                   			<li><a  href="#">에센스/크림</a></li>
+                   			<li><a  href="#">미스트</a></li>
+                   			<li><a  href="#">립케어</a></li>
+                   		</ul>
+                   </li>
+                   <li><a href="#"><span>메이크업 베이스</span></a>
+                   		<ul>
+                   			<li><a href="#">썬크림</a></li>
+                   			<li><a href="#">파운데이션</a></li>
+                   			<li><a href="#">파우더</a></li>
+                   			<li><a href="#">컨실러</a></li>
+                   			<li><a href="#">쉐이딩/하이라이터</a></li>
+                   		</ul>
+                   </li>
+                   <li><a href="#"><span>색조</span></a>
+                   		<ul>
+                   			<li><a href="#">아이브로우</a></li>
+                   			<li><a href="#">아이섀도우</a></li>
+                   			<li><a href="#">아이라이너</a></li>
+                   			<li><a href="#">마스카라</a></li>
+                   			<li><a href="#">블러셔</a></li>
+                   			<li><a href="#">틴트</a></li>
+                   			<li><a href="#">립스틱</a></li>
+                   		</ul>
+                   </li>
+                   <li><a href="#"><span>바디</span></a>
+                   		<ul>
+                   			<li><a href="#">바디클렌저</a></li>
+                   			<li><a href="#">바디스크럽</a></li>
+                   			<li><a href="#">입욕용품</a></li>
+                   			<li><a href="#">바디로션</a></li>
+                   		</ul>
+                   </li>
+                   <li><a href="#"><span>헤어</span></a>
+                   		<ul>
+                   			<li><a href="#">에센스</a></li>
+                   		</ul>
+                   </li>
+                   <li><a href="#"><span>기타</span></a>
+                   		<ul>
+                   			<li><a href="#">향수</a></li>
+                   			<li><a href="#">기타</a></li>
+                   		</ul>
+                   </li>
+               </ul>
+           </nav>
+		   <p class="close"><a hreef="#"><img src="img/header/close.png" alt="메뉴 닫기"/></a></p>           
+        </div>
+   </div>
+    <!--header-->
+    <header>
+        <h1>MINE</h1>
+        <ul>
+        <li class="menuBtn"><a href="#"><img src="img/header/bar.png" alt="메뉴"/></a></li>
+        <li class="srchIcon"><a href="#"><img src="img/header/srchIcon.png" alt="검색"/></a></li>
+        </ul>
+        <div class="srchBox">
+			<form action="/" method="post">
+				<fieldset>
+					<legend class="blind">검색창</legend>
+					<label for="srch" class="blind">내 화장품 검색</label><input type="search" id="srch" title = "내 화장품 검색하기"/><input type="image" src="img/header/btn_down_search.png" alt="검색하기"/>
+				</fieldset>
+			</form>
+		</div>
+    </header>
+    <!--//header-->
+    <hr/>
+    
+    <!--container-->
+    <div id="container">
+        <!--contents-->
+        <div id="contents">
+            <!--1-->
+            <article>
+                <header>
+                    <h2>리뉴크림</h2>
+                    <h3> | 크림</h3>
+                </header>
+                <ul>
+                    <li>라네즈</li>
+                    <li><img src="img/mine/pic1.jpg" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>03</span>. <span>05</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>
+            
+            <!--2-->
+            <article>
+                <header>
+                    <h2>슈가 드롭</h2>
+                    <h3> | 아이쉐도우</h3>
+                </header>
+                <ul>
+                    <li>미샤</li>
+                    <li><img src="img/mine/pic1.png" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>04</span>. <span>11</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>
+            
+            <article>
+                <header>
+                    <h2>워터프르프</h2>
+                    <h3> | 썬크림</h3>
+                </header>
+                <ul>
+                    <li>미샤</li>
+                    <li><img src="img/mine/pic7.png" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>06</span>. <span>23</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>
+            
+            <!--3-->
+            <article>
+                <header>
+                    <h2>리뉴에멀젼</h2>
+                    <h3> | 로션</h3>
+                </header>
+                <ul>
+                    <li>라네즈</li>
+                    <li><img src="img/mine/pic2.png" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>06</span>. <span>25</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article> 
+            
+            <!--7--> 
+            <article>
+                <header>
+                    <h2>심쿵주의</h2>
+                    <h3> | 틴트</h3>
+                </header>
+                <ul>
+                    <li>페리페라</li>
+                    <li><img src="img/mine/pic4.png" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>06</span>. <span>29</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>
+            
+            <!--5-->
+            <article>
+                <header>
+                    <h2>콜라겐앰플</h2>
+                    <h3> | 에센스</h3>
+                </header>
+                <ul>
+                    <li>AHC</li>
+                    <li class="camera icon"><img src="img/mine/camera.png" alt="카메라 아이콘"/></li>
+                    <li>EXP. <span>2018</span>. <span>08</span>. <span>11</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article> 
+            
+            <!--6--> 
+            <article>
+                <header>
+                    <h2>리얼아이크림</h2>
+                    <h3> | 아이크림</h3>
+                </header>
+                <ul>
+                    <li>AHC</li>
+                    <li><img src="img/mine/pic3.png" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>09</span>. <span>07</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>
+            
+            <!--7-->  
+            <article>
+                <header>
+                    <h2>코랄샤이닝</h2>
+                    <h3>| 아이쉐도우</h3>
+                </header>
+                <ul>
+                    <li>아리따움</li>
+                    <li><img src="img/mine/pic6.png" alt="사용자 지정 사진"/></li>
+                    <li>EXP. <span>2018</span>. <span>10</span>. <span>25</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>
+            
+            <!--8-->
+            <article>
+                <header>
+                    <h2>보씨코랄</h2>
+                    <h3>| 립스틱</h3>
+                </header>
+                <ul>
+                    <li>SEP</li>
+                    <li class="camera icon"><img src="img/mine/camera.png" alt="크림 아이콘"/></li>
+                    <li>EXP. <span>2019</span>. <span>01</span>. <span>23</span>.</li>
+                    <li>사용불가</li>
+                </ul>
+            </article>  
+        </div>
+        <div class="addList">
+            <p><a href="#"><span>+</span></a></p>
+        </div>
+    </div>
+    <!--//container-->
+    <hr/>
+    
+    <!--footer-->
+    <footer>
+        <nav>
+            <ul>
+            <li><a href="mine.html"><img src="img/footer/mineIcon_on.png" alt="내 화장대"/></a></li>
+            <li><a href="community.html"><img src="img/footer/communityIcon.png" alt="community<"/></a></li>
+            <li><a href="saleInfo.html"><img src="img/footer/slaeIcon.png" alt="세일"/></a></li>
+            <li><a href="storeInfo.html"><img src="img/footer/storeInfo.png" alt="상점안내"/></a></li>
+            <li><a href="more.html"><img src="img/footer/moreIcon.png" alt="내 정보 및 환경설정"/></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!--//footer-->
+</body>
+</html>

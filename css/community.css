@@ -1,0 +1,37 @@
+@import url(reset.css);
+@import url(base.css);
+/*community.css*/
+
+/*modal*/
+/*nav*/
+.slideMenu nav{margin-top:30px; overflow:auto;}
+.slideMenu nav > h2{margin-left:20px; margin-bottom: 10px; color:#fff; font-size:17px; }
+.slideMenu nav > ul{overflow:hidden;}
+.slideMenu nav > ul > li > a{display:inline-block; width:100%; height:35px; border-bottom:1px solid rgba(255, 255, 255, 0.2); border-right:none; border-left:none;}
+.slideMenu nav > ul > li:first-of-type > a{border-top:1px solid rgba(255, 255, 255, 0.2);}
+.slideMenu nav > ul > li > a > span{display:inline-block; width:100%; margin-left:30px; padding-left:15px;
+							  background:url(../img/header/dot.png) no-repeat 0 55%;font-size:14px; line-height:33px; color:#fff;}
+
+/*container*/
+/*contents*/
+article{width:91%; height:305px; margin:0 auto; background:#fff; box-shadow:1px 1px 1px #dcdcdc;}
+article > header{width:311px; margin:9px auto; padding-top:8px; }
+article > header:after{content:""; display:block; clear:both;}
+article > header h2{float:left; font-size:15px;}
+article > header h3{float:right; font-size:15px;}
+article > ul{position:relative; width:311px; height:236px; margin:0 auto;}
+article > ul > li:first-of-type{width:100%; height:142px; overflow:hidden;}
+article:nth-of-type(1) > ul > li:first-of-type img{width:100%; margin-top:-70px;}
+article:nth-of-type(2) > ul > li:first-of-type img{width:110%; margin-top:-35px ; margin-left:-25px;}
+article > ul > li:nth-of-type(2){font-size:12px; line-height:1.5; margin:9px 0 19px;}
+article > ul > li:last-of-type{position:absolute; bottom:5px; color:#f481be; font-size:12px;}
+article > footer{width:100%; height:28px; padding-top:8px; border-top:1px solid #ebebeb; box-sizing:border-box;}
+article > footer > ul{width:311px; height:28px; margin:0 auto;}
+article > footer > ul > li{float:left; font-size:11px;}
+article > footer > ul > li:first-of-type{margin-right:13px;}
+article > footer > ul > li:last-of-type{float:right;}
+
+.addList img{width:60%; margin-top:-5px;}
+
+/*footer*/
+body > footer nav ul li:nth-of-type(2){background:#d60454;}

@@ -1,0 +1,27 @@
+@import url(reset.css);
+@font-face{
+	font-family:"malgun";
+	src:url("../font/malgun.ttf"); font-weight:norml; font-style:normal;
+}
+
+a{text-decoration:none; color:#555;}
+/*login.css*/
+body{position:fixed; left:0; top:0; width:100%; height:100%; min-width:360px; min-height:639px; font-family:"malgun";}
+header{position:fixed; left:50%; top:25px; transform:translateX(-50%);}
+header h1{width:198px; height:202.5px;}
+header h1 img{width:100%;}
+header h2{margin-top:3px; text-align:center; color:#d60454; font-size:20px; font-weight:bold;}
+
+/*section*/
+section{position:fixed; left:50%; bottom:10%; width:76.845%; transform:translateX(-50%);}
+
+li{width:100%; margin-bottom:30px;}
+label{width:17.5%; text-align:center; font-size:16px; color:#646464; letter-spacing:-1px;}
+input{width:70%; border:none; border-bottom:1px solid #bbb; margin-left:6.25%;}
+p:first-of-type{width:100%; text-align:center; margin:33px 0 30px}
+p:first-of-type a{font-size:16px; color:#969696;}
+p.button{width:100%; height:45px; border-radius:30px;}
+p.button a{display:inline-block; width:100%; line-height:45px; text-align:center; font-size:15px; letter-spacing:-1px;}
+p.button.login a{border-radius:30px; background-color:#d60454; color:#fff; opacity:80%;}
+p.button.ca{border:2px solid #d60454; margin-top:14px;}
+p.button.ca a{color:#d60454;}

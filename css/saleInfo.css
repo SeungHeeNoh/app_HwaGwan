@@ -1,0 +1,18 @@
+@import url(reset.css);
+@import url(base.css);
+/*saleInfo.css*/
+
+/*container*/
+/*content*/
+#contents{margin-top:70px;}
+article{position:relative; height:150px; background:#fff; margin-bottom:13px; border-bottom:1px solid #e0e0e0; box-sizing:border-box;}
+article a{display:block; width:100%; height:100%;}
+article h2{position:absolute; bottom:8px; left:20px; color:#d60454; font-size:15px;}
+article p.img{position:absolute; top:0; width:100%; height:116px; overflow:hidden;}
+article p.img img{width:100%;}
+article p.txt{position:absolute; right:20px; bottom:8px; font-size:15px;}
+
+.alram img{width:80%; margin-top:-5px;}
+
+/*footer*/
+body > footer nav ul li:nth-of-type(3){background:#d60454;}

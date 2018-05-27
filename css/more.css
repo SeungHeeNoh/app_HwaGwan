@@ -1,0 +1,19 @@
+@import url(reset.css);
+@import url(base.css);
+body{background:#fff;}
+
+#contents{padding-top:10px; overflow:hidden;}
+#contents > ul{width:100%; border-top:1px solid #dedede;}
+#contents > ul > li > span{height:42px; font-size:20px; padding-left:29px; line-height:42px;}
+#contents > ul > li > ul{background:#f0f0f0; border:1px solid #e2e2e2; border-left:none; border-right:none;}
+#contents > ul > li > ul > li{background:url(../img/arrow.png) no-repeat 95% 50%;}
+#contents > ul > li > ul > li > a{display:block; width:100%; height:43px; margin-left:50px; background:url(../img/more/lockicon.png) no-repeat 0 50%; padding-left:25px; font-size:17px; line-height:43px;}
+#contents > ul > li:nth-of-type(2) > ul > li:first-of-type > a{background-image:url(../img/more/writeIcon.png)}
+#contents > ul > li:nth-of-type(2) > ul > li:nth-of-type(2) > a{background-image:url(../img/more/replleIcon.png);}
+#contents > ul > li:nth-of-type(2) > ul > li:nth-of-type(3) > a{background-image:url(../img/more/heartIcon.png)}
+#contents > ul > li:nth-of-type(3) > ul > li > a{background-image:url(../img/more/alramIcon.png);}
+#contents > ul > li:nth-of-type(4) > ul > li > a{background-image:url(../img/more/logout.png);}
+
+
+/*footer*/
+body > footer nav ul li:last-of-type{background:#d60454;}
